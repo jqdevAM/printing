@@ -229,7 +229,7 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
       },
       child: InteractiveViewer(
         transformationController: transformationController,
-        maxScale: 5,
+        maxScale: 2.5,
         scaleFactor: 100,
         child: Center(
           child: PdfPreviewPage(
