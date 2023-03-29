@@ -206,9 +206,9 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
       itemBuilder: (BuildContext context, int index) => GestureDetector(
         onDoubleTap: () {
           setState(() {
-            updatePosition = scrollController.position.pixels;
-            preview = index;
-            transformationController.value.setIdentity();
+            // updatePosition = scrollController.position.pixels;
+            // preview = index;
+            // transformationController.value.setIdentity();
           });
         },
         child: PdfPreviewPage(

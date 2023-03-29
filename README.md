@@ -13,8 +13,6 @@ This plugin uses the `pdf` package <https://pub.dev/packages/pdf>
 for pdf creation. Please refer to <https://pub.dev/documentation/pdf/latest/>
 for documentation.
 
-[![Buy Me A Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png "Buy Me A Coffee")](https://www.buymeacoffee.com/JORBmbw9h "Buy Me A Coffee")
-
 ## Installing
 
 1. Add this package to your package's `pubspec.yaml` file as described
