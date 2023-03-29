@@ -229,8 +229,7 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
       },
       child: InteractiveViewer(
         transformationController: transformationController,
-        maxScale: 2.5,
-        scaleFactor: 100,
+        maxScale: 5,
         child: Center(
           child: PdfPreviewPage(
             pageData: pages[preview!],
@@ -265,7 +264,7 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
     }
 
     return Container(
-      color: Colors.white,
+      color: Colors.red,
       width: double.infinity,
       alignment: Alignment.center,
       child: page,
