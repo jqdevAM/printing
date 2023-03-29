@@ -396,7 +396,7 @@ class PdfPreviewState extends State<PdfPreview> {
                 scrollViewDecoration: widget.scrollViewDecoration,
                 shouldRepaint: widget.shouldRepaint,
                 pagesBuilder: widget._pagesBuilder,
-                dpi: 32,
+                dpi: widget.dpi,
               );
             }),
           ),
@@ -406,7 +406,7 @@ class PdfPreviewState extends State<PdfPreview> {
                 color: iconColor,
               ),
               child: Material(
-                elevation: 4,
+                elevation: 1,
                 color: theme.primaryColor,
                 child: SizedBox(
                   width: double.infinity,
