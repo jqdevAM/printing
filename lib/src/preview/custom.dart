@@ -224,12 +224,13 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
     return GestureDetector(
       onDoubleTap: () {
         setState(() {
-          // preview = null;
+          preview = null;
         });
       },
       child: InteractiveViewer(
         transformationController: transformationController,
         maxScale: 5,
+        scaleFactor: 100,
         child: Center(
           child: PdfPreviewPage(
             pageData: pages[preview!],
