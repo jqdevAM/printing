@@ -264,7 +264,7 @@ class PdfPreviewCustomState extends State<PdfPreviewCustom>
     }
 
     return Container(
-      color: Colors.red,
+      color: Colors.white,
       width: double.infinity,
       alignment: Alignment.center,
       child: page,
