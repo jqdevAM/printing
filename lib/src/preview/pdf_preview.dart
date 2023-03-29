@@ -396,7 +396,7 @@ class PdfPreviewState extends State<PdfPreview> {
                 scrollViewDecoration: widget.scrollViewDecoration,
                 shouldRepaint: widget.shouldRepaint,
                 pagesBuilder: widget._pagesBuilder,
-                dpi: widget.dpi,
+                dpi: 32,
               );
             }),
           ),
